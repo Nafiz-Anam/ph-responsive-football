@@ -1,3 +1,16 @@
+/* ================
+
+Developer : Nafiz Anam
+Position : Full-Stack Developer
+Project : Responsive Demo website for Programming hero course
+Date : July 14th, 2021 
+
+==================*/
+
+/* ================
+start of code here 
+===================*/
+
 /* import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
@@ -69,6 +82,8 @@ nav ul li a:hover {
     color: #e02c6d;
 }
 
+/* end of navigation */
+
 /* start of mobile static nav */
 
 #mobile-nav {
@@ -79,6 +94,8 @@ nav ul li a:hover {
     color: white;
     font-size: 1.5em;
 }
+
+/* end of mobile static nav */
 
 /* start of banner area */
 
@@ -127,7 +144,9 @@ nav ul li a:hover {
     color: #e02c6d;
 }
 
-/* start of upcoming */
+/* start of banner area */
+
+/* start of upcoming area*/
 
 .upcoming {
     text-align: center;
@@ -165,7 +184,9 @@ nav ul li a:hover {
     padding: 0 25px;
 }
 
-/* start of top players are */
+/* start of upcoming area*/
+
+/* start of top players area */
 
 .players {
     display: grid;
@@ -206,6 +227,8 @@ nav ul li a:hover {
     color: #e02c6d;
 }
 
+/* start of top players area */
+
 /* start of highlight area */
 
 .highlight {
@@ -233,6 +256,8 @@ nav ul li a:hover {
 .h-img img {
     width: 100%;
 }
+
+/* start of highlight area */
 
 /* start of newsletter area */
 
@@ -275,6 +300,8 @@ input {
     font-size: 1em;
 }
 
+/* end of newsletter area */
+
 /* start of footer area */
 
 footer {
@@ -312,25 +339,30 @@ footer {
     padding-top: 3%;
 }
 
-/* start of responsive media queries  */
+/* end of footer area */
+
+/* =========================================================
+start of responsive media queries for mobiles and tablets 
+============================================================*/
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* start of common styles  */
     .container {
         width: auto;
     }
-    /* header {
-        display: none;
-    } */
+
+    /* start of main nav */
     #main-nav {
         display: none;
     }
 
+    /* start of mobile nav */
     #mobile-nav {
         display: flex;
     }
 
-    /* banner area */
+    /* start of banner area */
     .banner-area {
         padding: 15% 0;
     }
@@ -356,7 +388,7 @@ footer {
         font-size: 2.5em !important;
     }
 
-    /* start of upcoming */
+    /* start of upcoming area */
 
     .upcoming {
         text-align: center;
@@ -367,7 +399,7 @@ footer {
         display: block;
     }
 
-    /* top players */
+    /* start of top players area */
 
     .players {
         display: block !important;
@@ -446,12 +478,9 @@ footer {
     }
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-}
-
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    /* start of player area */
     .player img {
         width: 310px;
     }
@@ -459,6 +488,7 @@ footer {
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+    /* start of common styles */
     .container {
         width: auto;
         padding: 0 30px;
@@ -468,7 +498,7 @@ footer {
         padding: 30px !important;
     }
 
-    /* banner area */
+    /* start of banner area */
 
     .banner-area {
         padding: 15% 0;
@@ -483,7 +513,7 @@ footer {
         line-height: 65px;
     }
 
-    /* top players */
+    /* start of top players area */
 
     .players {
         display: grid;
@@ -514,7 +544,7 @@ footer {
         width: 50%;
     }
 
-    /* start of subscribe */
+    /* start of subscribe area */
 
     .news-texts {
         width: 50%;
@@ -530,4 +560,6 @@ footer {
     }
 }
 
-/* Extra large devices (large desktops) */
+/* ================
+End of Codes Here 
+==================*/
