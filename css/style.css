@@ -44,7 +44,7 @@ nav ul li {
 nav ul li a {
     color: white;
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 nav ul li a:hover {
@@ -56,12 +56,17 @@ nav ul li a:hover {
     padding: 5px 25px;
 }
 
+.nav-btn:hover {
+    background-color: white;
+    padding: 5px 25px;
+}
+
 .nav-btn a {
     color: white;
 }
 
-.nav-btn a:hover {
-    color: #2d25a0;
+.nav-btn:hover > a {
+    color: #e02c6d;
 }
 
 /* start of banner area */
@@ -166,6 +171,7 @@ nav ul li a:hover {
 .player h3 {
     font-size: 28px;
     line-height: 40px;
+    padding-top: 3%;
 }
 
 .player p,
@@ -174,6 +180,7 @@ nav ul li a:hover {
     font-size: 16px;
     line-height: 26px;
     color: #6c6c6c;
+    padding: 3% 0;
 }
 
 .image {
@@ -182,6 +189,10 @@ nav ul li a:hover {
 
 .p-img {
     width: 328px;
+}
+
+.player a:hover {
+    color: #e02c6d;
 }
 
 /* start of highlight area */
@@ -241,6 +252,7 @@ nav ul li a:hover {
 input {
     width: 60%;
     padding: 10px 0 10px 10px;
+    font-size: 1em;
 }
 
 .form-btn {
@@ -259,25 +271,30 @@ footer {
     padding: 3% 0;
 }
 
-.f-logo img {
+.footer-logo img {
     width: 25%;
 }
 
-.f-social ul {
+.footer-social ul {
     display: flex;
     justify-content: center;
 }
 
-.f-social ul li {
+.footer-social ul li {
     padding: 20px;
 }
 
-.f-social ul li a i {
+.footer-social ul li a i {
     font-size: 25px;
     padding: 15px;
     border-radius: 50%;
     color: #969bab;
     background-color: #e7e7e8;
+}
+
+.footer-social ul li a i:hover {
+    color: #e7e7e8;
+    background-color: #969bab;
 }
 
 .footer-texts {
@@ -318,7 +335,7 @@ footer {
     }
 
     .banner-text h1 {
-        font-size: 3em!important;
+        font-size: 3em !important;
     }
 
     /* start of upcoming */
@@ -397,15 +414,15 @@ footer {
         padding: 15% 0;
     }
 
-    .f-logo img {
+    .footer-logo img {
         width: 50%;
     }
 
-    .f-social ul li {
+    .footer-social ul li {
         padding: 10px;
     }
 
-    .f-social ul li a i {
+    .footer-social ul li a i {
         font-size: 20px;
         padding: 10px;
     }
