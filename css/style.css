@@ -69,6 +69,17 @@ nav ul li a:hover {
     color: #e02c6d;
 }
 
+/* start of mobile static nav */
+
+#mobile-nav {
+    display: none;
+}
+
+#mobile-nav i {
+    color: white;
+    font-size: 1.5em;
+}
+
 /* start of banner area */
 
 .banner-area {
@@ -308,8 +319,15 @@ footer {
     .container {
         width: auto;
     }
-    header {
+    /* header {
         display: none;
+    } */
+    #main-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
     }
 
     /* banner area */
@@ -335,7 +353,7 @@ footer {
     }
 
     .banner-text h1 {
-        font-size: 3em !important;
+        font-size: 2.5em !important;
     }
 
     /* start of upcoming */
